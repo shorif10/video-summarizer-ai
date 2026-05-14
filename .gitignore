@@ -2,7 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+# env files never go in version control, as they often contain sensitive information such as API keys or database credentials.
+.env
+.venv
 # C extensions
 *.so
 
